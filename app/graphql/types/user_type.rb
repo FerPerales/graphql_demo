@@ -1,9 +1,6 @@
 Types::UserType = GraphQL::ObjectType.define do
   name "User"
-  # Add root-level fields here.
-  # They will be entry points for queries on your schema.
-  #
-  #
+
   field :id, types.Int do
     description "User's id"
     resolve ->(obj, args, ctx) {

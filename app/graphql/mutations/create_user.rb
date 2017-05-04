@@ -6,10 +6,9 @@ Mutations::CreateUser = GraphQL::Relay::Mutation.define do
   input_field :lastName, !types.String
 
   resolve ->(obj, args, ctx) {
-    user = User.create(
+    User.create(
       first_name: args[:firstName],
       last_name: args[:lastName]
     )
-    user
   }
 end
