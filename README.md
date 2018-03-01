@@ -1,8 +1,8 @@
-== GraphQL + Rails Demo
+# GraphQL + Rails Demo
 
 A very simple GraphQL demo app
 
-# Install
+## Install
 
 You need ruby (tested in 2.4 version) and rails (5.1.5) as well as SQLite
 
